@@ -1,0 +1,45 @@
+form{
+  width: 50%;  
+  margin: 100px auto;
+}
+#wrapper{
+    width: 35%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #EFFFE0;
+}
+
+form div{
+    margin: 3px auto;
+}
+
+.textInput {
+    margin: 2px 0 7px;
+    height: 28px;
+    border: 1px solid #5e6e66;
+    font-size: 16px;
+    padding: 1px;
+    width: 100%;
+    transition: border-color 0.25s linear;
+}
+
+.btn{
+    padding: 7px;
+    width: 100%;
+}
+.val_error{
+    color: #FF1F1F;
+}
+.submit-btn{
+    width: 25%;
+    background-color: #FF1F1F;
+    color: aliceblue;
+
+}
+.submit-wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+.error-value {
+    border-color: red;
+}
